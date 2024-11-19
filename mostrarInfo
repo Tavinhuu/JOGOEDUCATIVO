@@ -1,35 +1,41 @@
-
 void mostrarInfo(){
     
-    printf("----------Informacoes----------\n\n");
-    
-    if(nav==1){
-        printf("Nivel: Facil\n");
+    if(calc1.dificuldade==1){
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|                    NIVEL FACIL                  |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
-    else if(nav==2){
-        printf("Nivel: Medio\n");
+    else if(calc1.dificuldade==2){
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|                    NIVEL MEDIO                  |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
-    else if(nav==3){
-        printf("Nivel: Dificil\n");
-    }
-    else{
-        printf("Nivel: Insano\n");
-    }
-
-    printf("Valores:%d %d\n", n1, n2);
-
-    printf("Tipo da operacao:\n");
-
-    if(operacao==1){
-        printf("Soma\n");
-    }
-    else if(operacao==2){
-        printf("Subtracao\n");
-    }
-    else if(operacao==3){
-        printf("Multiplicacao\n");
+    else if(calc1.dificuldade==3){
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|                  NIVEL DIFICIL                  |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
     else{
-        printf("Divisao\n");
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|                  NIVEL INSANO                   |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
+    }
+        printf("\t\t\t| Valores:%d %d                                   |\n");
+
+    if(calc1.operacao==1){
+        printf("\t\t\t| Operacao: Soma                                  |\n");
+    }
+    else if(calc1.operacao==2){
+        printf("\t\t\t| Operacao: Subtracao                             |\n");
+    }
+    else if(calc1.operacao==3){
+        printf("\t\t\t| Operacao: Multiplicacao                         |\n");
+    }
+    else{
+        printf("\t\t\t| Operacao: Divisao                               |\n");
     }
 }
