@@ -74,8 +74,22 @@ A função `multiplicacao()` executa a operação de **multiplicação** para o 
 3. Se a resposta estiver correta, o jogador ganha um ponto e pode tentar novamente ou voltar ao início.
 4. Se a resposta estiver errada, o jogador tem a mesma opção.
 
-#### Exemplo de Saída:
+ ### `subtração()`
 
-**Se o jogador acertar:**
+A função `subtração()` executa a operação de **subtração** para o jogador, dependendo do nível de dificuldade escolhido. O fluxo da função é o mesmo da função `adicao()`, mas a operação realizada é uma subtração.
+
+- **Exibe a operação de subtração** e solicita que o jogador insira a resposta (`calc1.chute`).
+- Se o jogador acertar:
+  - O programa informa que o jogador acertou e adiciona 1 ponto à pontuação.
+  - O jogador tem a opção de tentar novamente ou voltar ao início.
+- Se o jogador errar:
+  - O programa informa que o jogador errou e oferece a opção de tentar novamente ou voltar ao início.
+
+#### Fluxo de Execução
+1. O programa gera dois números aleatórios (`calc1.valor1` e `calc1.valor2`) conforme a dificuldade.
+2. A operação de subtração é exibida ao jogador, que deve inserir a resposta.
+3. Se a resposta estiver correta, o jogador ganha um ponto e pode tentar novamente ou voltar ao início.
+4. Se a resposta estiver errada, o jogador tem a mesma opção.
+
 
 
