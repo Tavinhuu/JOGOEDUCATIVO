@@ -51,7 +51,7 @@ void adicao()
 
         calc1.resultado = calc1.valor1 + calc1.valor2;
 
-        scanf("%.2f", &calc1.chute);
+        scanf("%f", &calc1.chute);
 
         if (calc1.chute == calc1.resultado)
         {
@@ -63,7 +63,8 @@ void adicao()
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
             calc1.pontuacao += 1;
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -78,7 +79,8 @@ void adicao()
             printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -92,7 +94,7 @@ void adicao()
 
         calc1.resultado = calc1.valor1 + calc1.valor2;
 
-        scanf("%.2f", &calc1.chute);
+        scanf("%f", &calc1.chute);
 
         if (calc1.chute == calc1.resultado)
         {
@@ -104,7 +106,8 @@ void adicao()
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
             calc1.pontuacao += 1;
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -120,7 +123,8 @@ void adicao()
             printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -134,7 +138,7 @@ void adicao()
 
         calc1.resultado = calc1.valor1 + calc1.valor2;
 
-        scanf("%.2f", &calc1.chute);
+        scanf("%f", &calc1.chute);
 
         if (calc1.chute == calc1.resultado)
         {
@@ -146,7 +150,8 @@ void adicao()
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
             calc1.pontuacao += 1;
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -161,7 +166,8 @@ void adicao()
             printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -174,7 +180,7 @@ void adicao()
 
         calc1.resultado = calc1.valor1 + calc1.valor2;
 
-        scanf("%.2f", &calc1.chute);
+        scanf("%f", &calc1.chute);
 
         if (calc1.chute == calc1.resultado)
         {
@@ -186,7 +192,8 @@ void adicao()
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
             calc1.pontuacao += 1;
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -201,7 +208,8 @@ void adicao()
             printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -220,7 +228,7 @@ void multiplicacao()
 
         calc1.resultado = calc1.valor1 * calc1.valor2;
 
-        scanf("%.2f", &calc1.chute);
+        scanf("%f", &calc1.chute);
 
         if (calc1.chute == calc1.resultado)
         {
@@ -232,7 +240,8 @@ void multiplicacao()
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
             calc1.pontuacao += 1;
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -247,7 +256,8 @@ void multiplicacao()
             printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -261,7 +271,7 @@ void multiplicacao()
 
         calc1.resultado = calc1.valor1 * calc1.valor2;
 
-        scanf("%.2f", &calc1.chute);
+        scanf("%f", &calc1.chute);
 
         if (calc1.chute == calc1.resultado)
         {
@@ -273,7 +283,8 @@ void multiplicacao()
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
             calc1.pontuacao += 1;
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -288,7 +299,8 @@ void multiplicacao()
             printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -302,7 +314,7 @@ void multiplicacao()
 
         calc1.resultado = calc1.valor1 * calc1.valor2;
 
-        scanf("%.2f", &calc1.chute);
+        scanf("%f", &calc1.chute);
 
         if (calc1.chute == calc1.resultado)
         {
@@ -314,7 +326,8 @@ void multiplicacao()
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
             calc1.pontuacao += 1;
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -329,7 +342,8 @@ void multiplicacao()
             printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -343,7 +357,7 @@ void multiplicacao()
 
         calc1.resultado = calc1.valor1 * calc1.valor2;
 
-        scanf("%.2f", &calc1.chute);
+        scanf("%f", &calc1.chute);
 
         if (calc1.chute == calc1.resultado)
         {
@@ -355,7 +369,8 @@ void multiplicacao()
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
             calc1.pontuacao += 1;
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -370,7 +385,8 @@ void multiplicacao()
             printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -389,7 +405,7 @@ void divisao()
 
         calc1.resultado = calc1.valor1 / calc1.valor2;
 
-        scanf("%.2f", &calc1.chute);
+        scanf("%f", &calc1.chute);
 
         if (calc1.chute == calc1.resultado)
         {
@@ -401,7 +417,8 @@ void divisao()
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
             calc1.pontuacao += 1;
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -416,7 +433,8 @@ void divisao()
             printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -430,7 +448,7 @@ void divisao()
 
         calc1.resultado = calc1.valor1 / calc1.valor2;
 
-        scanf("%.2f", &calc1.chute);
+        scanf("%f", &calc1.chute);
 
         if (calc1.chute == calc1.resultado)
         {
@@ -442,7 +460,8 @@ void divisao()
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
             calc1.pontuacao += 1;
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -457,7 +476,8 @@ void divisao()
             printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -471,7 +491,7 @@ void divisao()
 
         calc1.resultado = calc1.valor1 / calc1.valor2;
 
-        scanf("%.2f", &calc1.chute);
+        scanf("%f", &calc1.chute);
 
         if (calc1.chute == calc1.resultado)
         {
@@ -483,7 +503,8 @@ void divisao()
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
             calc1.pontuacao += 1;
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -498,7 +519,8 @@ void divisao()
             printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -512,7 +534,7 @@ void divisao()
 
         calc1.resultado = calc1.valor1 / calc1.valor2;
 
-        scanf("%.2f", &calc1.chute);
+        scanf("%f", &calc1.chute);
 
         if (calc1.chute == calc1.resultado)
         {
@@ -524,7 +546,8 @@ void divisao()
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
             calc1.pontuacao += 1;
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -539,7 +562,8 @@ void divisao()
             printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -558,7 +582,7 @@ void subtracao()
 
         calc1.resultado = calc1.valor1 - calc1.valor2;
 
-        scanf("%.2f", &calc1.chute);
+        scanf("%f", &calc1.chute);
 
         if (calc1.chute == calc1.resultado)
         {
@@ -570,7 +594,8 @@ void subtracao()
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
             calc1.pontuacao += 1;
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -585,7 +610,8 @@ void subtracao()
             printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -599,7 +625,7 @@ void subtracao()
 
         calc1.resultado = calc1.valor1 - calc1.valor2;
 
-        scanf("%.2f", &calc1.chute);
+        scanf("%f", &calc1.chute);
 
         if (calc1.chute == calc1.resultado)
         {
@@ -611,7 +637,8 @@ void subtracao()
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
             calc1.pontuacao += 1;
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -626,7 +653,8 @@ void subtracao()
             printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -640,7 +668,7 @@ void subtracao()
 
         calc1.resultado = calc1.valor1 - calc1.valor2;
 
-        scanf("%.2f", &calc1.chute);
+        scanf("%f", &calc1.chute);
 
         if (calc1.chute == calc1.resultado)
         {
@@ -652,7 +680,8 @@ void subtracao()
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
             calc1.pontuacao += 1;
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -667,7 +696,8 @@ void subtracao()
             printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -681,7 +711,7 @@ void subtracao()
 
         calc1.resultado = calc1.valor1 - calc1.valor2;
 
-        scanf("%.2f", &calc1.chute);
+        scanf("%f", &calc1.chute);
 
         if (calc1.chute == calc1.resultado)
         {
@@ -693,7 +723,8 @@ void subtracao()
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
             calc1.pontuacao += 1;
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -708,7 +739,8 @@ void subtracao()
             printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
             printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
             printf("\t\t\t _______________________________________________________________________________\n");
-            scanf("%d", &nav);
+            scanf(" %d", &nav);
+            fflush(stdin);
             if (nav == 1){
                 adicao();
             } else {
@@ -785,7 +817,8 @@ int main(void)
     printf("\t\t\t| Nivel 3 (Dificil): Valores entre 0 e 1000.      |\n");
     printf("\t\t\t| Nivel 4 (Insano): Valores entre 0 e 10000.      |\n");
     printf("\t\t\t _________________________________________________\n");
-    scanf("%d", &nav);
+    scanf(" %d", &nav);
+            fflush(stdin);
     switch (nav)
     {
     case 1:
