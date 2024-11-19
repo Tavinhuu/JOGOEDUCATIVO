@@ -3,6 +3,7 @@
 int dificuldade;
 
 int nav;
+   typedef struct{ int dificuldade; int valor1;  int valor2;  int operacao;  int resultado } calcular;
 
 void jogar(){
 
