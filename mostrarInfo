@@ -1,0 +1,35 @@
+
+void mostrarInfo(){
+    
+    printf("----------Informacoes----------\n\n");
+    
+    if(nav==1){
+        printf("Nivel: Facil\n");
+    }
+    else if(nav==2){
+        printf("Nivel: Medio\n");
+    }
+    else if(nav==3){
+        printf("Nivel: Dificil\n");
+    }
+    else{
+        printf("Nivel: Insano\n");
+    }
+
+    printf("Valores:%d %d\n", n1, n2);
+
+    printf("Tipo da operacao:\n");
+
+    if(op==1){
+        printf("Soma\n");
+    }
+    else if(op==2){
+        printf("Subtracao\n");
+    }
+    else if(op==3){
+        printf("Multiplicacao\n");
+    }
+    else{
+        printf("Divisao\n");
+    }
+}
