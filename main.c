@@ -35,6 +35,7 @@ void adicao(){
 
     if(dificuldade == 1){
         printf("Dificuldade facil");
+
     }
     if(dificuldade == 2){
         printf("Dificuldade medio");
@@ -114,8 +115,15 @@ int main(void){
     
 
 
-    printf("Escolha a dificuldade\n");
-    printf("Nível 1 (Facil): Valores entre 0 e 10.\n Nível 2 (Medio): Valores entre 0 e 100.\n Nível 3 (Dificil): Valores entre 0 e 1000.\n Nível 4 (Insano): Valores entre 0 e 10000.\n\n");
+    printf("\t\t\t _________________________________________________\n");
+	printf("\t\t\t|                                                 |\n");
+	printf("\t\t\t|               ESCOLHA A DIFICULDADE             |\n");
+	printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
+    printf("\t\t\t| Nivel 1 (Facil): Valores entre 0 e 10.          |\n");
+    printf("\t\t\t| Nivel 2 (Facil): Valores entre 0 e 100.         |\n");
+    printf("\t\t\t| Nivel 3 (Dificil): Valores entre 0 e 1000.      |\n");
+    printf("\t\t\t| Nivel 4 (Insano): Valores entre 0 e 10000.      |\n");
+    printf("\t\t\t _________________________________________________\n");
     scanf("%d", &nav);
     switch (nav)
     {
