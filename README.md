@@ -1,7 +1,7 @@
 Instruções
 Proposta de Projeto – Jogo de Cálculos em C
 
-1. Objetivo do Projeto
+*1. Objetivo do Projeto*
    
 Desenvolver um jogo educacional de cálculo matemático em linguagem de programação C, utilizando conceitos de estruturas de dados, funções, aleatoriedade e manipulação de entradas. O sistema deve permitir que o jogador escolha o nível de dificuldade, resolva operações matemáticas (soma, subtração, multiplicação) e acumule pontos conforme acerta as respostas.
 
