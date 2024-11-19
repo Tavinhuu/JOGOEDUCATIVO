@@ -31,6 +31,7 @@ void jogar(){
 }
 
 void adicao(){
+    printf("Operacao de adicao\n");
 
     if(dificuldade == 1){
         printf("Dificuldade facil");
@@ -48,7 +49,9 @@ void adicao(){
 }
 
 void multiplicacao(){
-    
+    printf("Operacao de multiplicacao\n");
+
+
     if(dificuldade == 1){
         printf("Dificuldade facil");
     }
@@ -67,6 +70,8 @@ void multiplicacao(){
 
 void divisao(){
 
+    printf("Operacao de divisao\n");
+
     if(dificuldade == 1){
         printf("Dificuldade facil");
     }
@@ -83,6 +88,8 @@ void divisao(){
 
 void subtracao(){
     
+    printf("Operacao de subtracao\n");
+
     if(dificuldade == 1){
         printf("Dificuldade facil");
     }
@@ -108,7 +115,7 @@ int main(void){
 
 
     printf("Escolha a dificuldade\n");
-    printf("Nível 1 (Fácil): Valores entre 0 e 10.\n Nível 2 (Médio): Valores entre 0 e 100.\n Nível 3 (Difícil): Valores entre 0 e 1000.\n Nível 4 (Insano): Valores entre 0 e 10000.\n\n");
+    printf("Nível 1 (Facil): Valores entre 0 e 10.\n Nível 2 (Medio): Valores entre 0 e 100.\n Nível 3 (Dificil): Valores entre 0 e 1000.\n Nível 4 (Insano): Valores entre 0 e 10000.\n\n");
     scanf("%d", &nav);
     switch (nav)
     {
