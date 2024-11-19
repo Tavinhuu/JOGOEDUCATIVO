@@ -1,1 +1,3 @@
 # JOGOEDUCATIVO
+
+Coordenador: Gsbriel Cardoso
