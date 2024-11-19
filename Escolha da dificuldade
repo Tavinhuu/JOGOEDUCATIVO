@@ -1,38 +1,32 @@
-switch (nav)
+   switch (nav)
     {
     case 1:
-        dificuldade = 1;
+        calc1.dificuldade = 1;
         srand(time(NULL));
-        int n1 = rand() % 10;
-        int n2 = rand() % 10;
+        calc1.valor1 = rand() % 11;
+        calc1.valor2 = rand() % 11;
         jogar();
-        mostrarInfo();
-        printf("Qual o resuldado da operacao: ");
-        scanf("%d", &resuldado);
         break;
     case 2:
-        dificuldade = 2;
+        calc1.dificuldade = 2;
         srand(time(NULL));
-        int n1 = rand() % 100;
-        int n2 = rand() % 100;
+        calc1.valor1 = rand() % 101;
+        calc1.valor2 = rand() % 101;
         jogar();
-        mostrarInfo();
         break;
     case 3:
-        dificuldade = 3;
+        calc1.dificuldade = 3;
         srand(time(NULL));
-        int n1 = rand() % 1000;
-        int n2 = rand() % 1000;
+        calc1.valor1 = rand() % 1001;
+        calc1.valor2 = rand() % 1001;
         jogar();
-        mostrarInfo();
         break;
     case 4:
-        dificuldade = 4;
+        calc1.dificuldade = 4;
         srand(time(NULL));
-        int n1 = rand() % 10000;
-        int n2 = rand() % 10000;
+        calc1.valor1 = rand() % 10001;
+        calc1.valor2 = rand() % 10001;
         jogar();
-        mostrarInfo();
         break;
     default:
         break;
