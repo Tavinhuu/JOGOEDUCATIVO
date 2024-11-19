@@ -20,13 +20,13 @@ void mostrarInfo(){
 
     printf("Tipo da operacao:\n");
 
-    if(op==1){
+    if(operacao==1){
         printf("Soma\n");
     }
-    else if(op==2){
+    else if(operacao==2){
         printf("Subtracao\n");
     }
-    else if(op==3){
+    else if(operacao==3){
         printf("Multiplicacao\n");
     }
     else{
