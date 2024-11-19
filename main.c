@@ -1,170 +1,785 @@
 #include <stdio.h>
 #include <time.h>
 
-
-typedef struct { 
-    int dificuldade; 
-    int valor1; 
-    int valor2; 
-    int operacao; 
-    int resultado; 
+typedef struct
+{
+    int dificuldade;
+    int valor1;
+    int valor2;
+    int operacao;
+    float resultado;
+    float chute;
+    int pontuacao;
 } Calcular;
 
 Calcular calc1;
 
-
 int nav;
 
-void jogar(){
+void jogar()
+{
 
     srand(time(NULL));
     calc1.operacao = rand() % 4;
 
-
-    if(calc1.operacao == 0) {
+    if (calc1.operacao == 0)
+    {
         adicao();
     }
 
-    if (calc1.operacao == 1){
+    if (calc1.operacao == 1)
+    {
         multiplicacao();
     }
 
-    if (calc1.operacao == 2){
+    if (calc1.operacao == 2)
+    {
         divisao();
     }
 
-    if (calc1.operacao == 3){
+    if (calc1.operacao == 3)
+    {
         subtracao();
     }
-
-
 }
 
-void adicao(){
-    if(calc1.dificuldade == 1){
+void adicao()
+{
+    if (calc1.dificuldade == 1)
+    {
         mostrarInfo();
 
-    }
-    if(calc1.dificuldade == 2){
-        mostrarInfo();
-    }
-    if(calc1.dificuldade == 3){
-        mostrarInfo();
-    }
-    if(calc1.dificuldade == 4){
-        mostrarInfo();
-    }
+        calc1.resultado = calc1.valor1 + calc1.valor2;
 
+        scanf("%.2f", &calc1.chute);
+
+        if (calc1.chute == calc1.resultado)
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Voce recebeu +1 ponto\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            calc1.pontuacao += 1;
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+        else
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+    }
+    if (calc1.dificuldade == 2)
+    {
+        mostrarInfo();
+
+        calc1.resultado = calc1.valor1 + calc1.valor2;
+
+        scanf("%.2f", &calc1.chute);
+
+        if (calc1.chute == calc1.resultado)
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Voce recebeu +1 ponto\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            calc1.pontuacao += 1;
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+
+        }
+        else
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+    }
+    if (calc1.dificuldade == 3)
+    {
+        mostrarInfo();
+
+        calc1.resultado = calc1.valor1 + calc1.valor2;
+
+        scanf("%.2f", &calc1.chute);
+
+        if (calc1.chute == calc1.resultado)
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Voce recebeu +1 ponto\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            calc1.pontuacao += 1;
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+        else
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+    }
+    if (calc1.dificuldade == 4)
+    {
+
+        calc1.resultado = calc1.valor1 + calc1.valor2;
+
+        scanf("%.2f", &calc1.chute);
+
+        if (calc1.chute == calc1.resultado)
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Voce recebeu +1 ponto\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            calc1.pontuacao += 1;
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+        else
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+    }
 }
 
-void multiplicacao(){
+void multiplicacao()
+{
 
-    if(calc1.dificuldade == 1){
+    if (calc1.dificuldade == 1)
+    {
         mostrarInfo();
 
-    }
-    if(calc1.dificuldade == 2){
-        mostrarInfo();
-    }
-    if(calc1.dificuldade == 3){
-        mostrarInfo();
-    }
-    if(calc1.dificuldade == 4){
-        mostrarInfo();
-    }
+        calc1.resultado = calc1.valor1 * calc1.valor2;
 
+        scanf("%.2f", &calc1.chute);
 
+        if (calc1.chute == calc1.resultado)
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Voce recebeu +1 ponto\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            calc1.pontuacao += 1;
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+        else
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+    }
+    if (calc1.dificuldade == 2)
+    {
+        mostrarInfo();
+
+        calc1.resultado = calc1.valor1 * calc1.valor2;
+
+        scanf("%.2f", &calc1.chute);
+
+        if (calc1.chute == calc1.resultado)
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Voce recebeu +1 ponto\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            calc1.pontuacao += 1;
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+        else
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+    }
+    if (calc1.dificuldade == 3)
+    {
+        mostrarInfo();
+
+        calc1.resultado = calc1.valor1 * calc1.valor2;
+
+        scanf("%.2f", &calc1.chute);
+
+        if (calc1.chute == calc1.resultado)
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Voce recebeu +1 ponto\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            calc1.pontuacao += 1;
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+        else
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+    }
+    if (calc1.dificuldade == 4)
+    {
+        mostrarInfo();
+
+        calc1.resultado = calc1.valor1 * calc1.valor2;
+
+        scanf("%.2f", &calc1.chute);
+
+        if (calc1.chute == calc1.resultado)
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Voce recebeu +1 ponto\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            calc1.pontuacao += 1;
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+        else
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+    }
 }
 
-void divisao(){
+void divisao()
+{
 
-    if(calc1.dificuldade == 1){
+    if (calc1.dificuldade == 1)
+    {
         mostrarInfo();
 
+        calc1.resultado = calc1.valor1 / calc1.valor2;
+
+        scanf("%.2f", &calc1.chute);
+
+        if (calc1.chute == calc1.resultado)
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Voce recebeu +1 ponto\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            calc1.pontuacao += 1;
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+        else
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
     }
-    if(calc1.dificuldade == 2){
+    if (calc1.dificuldade == 2)
+    {
         mostrarInfo();
+
+        calc1.resultado = calc1.valor1 / calc1.valor2;
+
+        scanf("%.2f", &calc1.chute);
+
+        if (calc1.chute == calc1.resultado)
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Voce recebeu +1 ponto\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            calc1.pontuacao += 1;
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+        else
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
     }
-    if(calc1.dificuldade == 3){
+    if (calc1.dificuldade == 3)
+    {
         mostrarInfo();
+
+        calc1.resultado = calc1.valor1 / calc1.valor2;
+
+        scanf("%.2f", &calc1.chute);
+
+        if (calc1.chute == calc1.resultado)
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Voce recebeu +1 ponto\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            calc1.pontuacao += 1;
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+        else
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
     }
-    if(calc1.dificuldade == 4){
+    if (calc1.dificuldade == 4)
+    {
         mostrarInfo();
+
+        calc1.resultado = calc1.valor1 / calc1.valor2;
+
+        scanf("%.2f", &calc1.chute);
+
+        if (calc1.chute == calc1.resultado)
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Voce recebeu +1 ponto\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            calc1.pontuacao += 1;
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+        else
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
     }
 }
 
-void subtracao(){
-    
-    if(calc1.dificuldade == 1){
+void subtracao()
+{
+
+    if (calc1.dificuldade == 1)
+    {
         mostrarInfo();
 
+        calc1.resultado = calc1.valor1 - calc1.valor2;
+
+        scanf("%.2f", &calc1.chute);
+
+        if (calc1.chute == calc1.resultado)
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Voce recebeu +1 ponto\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            calc1.pontuacao += 1;
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+        else
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
     }
-    if(calc1.dificuldade == 2){
+    if (calc1.dificuldade == 2)
+    {
         mostrarInfo();
+
+        calc1.resultado = calc1.valor1 - calc1.valor2;
+
+        scanf("%.2f", &calc1.chute);
+
+        if (calc1.chute == calc1.resultado)
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Voce recebeu +1 ponto\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            calc1.pontuacao += 1;
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+        else
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
     }
-    if(calc1.dificuldade == 3){
+    if (calc1.dificuldade == 3)
+    {
         mostrarInfo();
+
+        calc1.resultado = calc1.valor1 - calc1.valor2;
+
+        scanf("%.2f", &calc1.chute);
+
+        if (calc1.chute == calc1.resultado)
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Voce recebeu +1 ponto\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            calc1.pontuacao += 1;
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+        else
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
     }
-    if(calc1.dificuldade == 4){
+    if (calc1.dificuldade == 4)
+    {
         mostrarInfo();
+
+        calc1.resultado = calc1.valor1 - calc1.valor2;
+
+        scanf("%.2f", &calc1.chute);
+
+        if (calc1.chute == calc1.resultado)
+        {
+             printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Voce recebeu +1 ponto\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            calc1.pontuacao += 1;
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
+        else
+        {
+            printf("\t\t\t _______________________________________________________________________________\n");
+            printf("\t\t\t|                                                                              |\n");
+            printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
+            printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
+            printf("\t\t\t| Digite 1 para tentar novamente ou qualquer outro valor para voltar ao inicio |\n");
+            printf("\t\t\t _______________________________________________________________________________\n");
+            scanf("%d", &nav);
+            if (nav == 1){
+                adicao();
+            } else {
+                main();
+            }
+        }
     }
 }
 
+void mostrarInfo()
+{
 
-void mostrarInfo(){
-    
-    if(calc1.dificuldade==1){
+    if (calc1.dificuldade == 1)
+    {
         printf("\t\t\t _________________________________________________\n");
-	    printf("\t\t\t|                                                 |\n");
-	    printf("\t\t\t|                    NIVEL FACIL                  |\n");
-	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
+        printf("\t\t\t|                                                 |\n");
+        printf("\t\t\t|                    NIVEL FACIL                  |\n");
+        printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
-    else if(calc1.dificuldade==2){
+    else if (calc1.dificuldade == 2)
+    {
         printf("\t\t\t _________________________________________________\n");
-	    printf("\t\t\t|                                                 |\n");
-	    printf("\t\t\t|                    NIVEL MEDIO                  |\n");
-	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
+        printf("\t\t\t|                                                 |\n");
+        printf("\t\t\t|                    NIVEL MEDIO                  |\n");
+        printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
-    else if(calc1.dificuldade==3){
+    else if (calc1.dificuldade == 3)
+    {
         printf("\t\t\t _________________________________________________\n");
-	    printf("\t\t\t|                                                 |\n");
-	    printf("\t\t\t|                  NIVEL DIFICIL                  |\n");
-	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
+        printf("\t\t\t|                                                 |\n");
+        printf("\t\t\t|                  NIVEL DIFICIL                  |\n");
+        printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
-    else{
+    else
+    {
         printf("\t\t\t _________________________________________________\n");
-	    printf("\t\t\t|                                                 |\n");
-	    printf("\t\t\t|                  NIVEL INSANO                   |\n");
-	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
+        printf("\t\t\t|                                                 |\n");
+        printf("\t\t\t|                  NIVEL INSANO                   |\n");
+        printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
 
-    if(calc1.operacao==0){
-        printf("\t\t\t| Valores: %d + %d                                   |\n", calc1.valor1, calc1.valor2);
+    if (calc1.operacao == 0)
+    {
+        printf("\t\t\t| Valores: %d + %d                                   \n", calc1.valor1, calc1.valor2);
         printf("\t\t\t| Operacao: Soma                                  |\n");
     }
-    else if(calc1.operacao==1){
-        printf("\t\t\t| Valores: %d x %d                                   |\n", calc1.valor1, calc1.valor2);
+    else if (calc1.operacao == 1)
+    {
+        printf("\t\t\t| Valores: %d x %d                                   \n", calc1.valor1, calc1.valor2);
         printf("\t\t\t| Operacao: Multiplicacao                           |\n");
     }
-    else if(calc1.operacao==2){
-        printf("\t\t\t| Valores: %d % %d                                   |\n", calc1.valor1, calc1.valor2);
+    else if (calc1.operacao == 2)
+    {
+        printf("\t\t\t| Valores: %d / %d                                   \n", calc1.valor1, calc1.valor2);
         printf("\t\t\t| Operacao: Divisao                                 |\n");
     }
-    else if(calc1.operacao==3){
-        printf("\t\t\t| Valores: %d - %d                                   |\n", calc1.valor1, calc1.valor2);
-        printf("\t\t\t| Operacao: Subtração                               |\n");
+    else if (calc1.operacao == 3)
+    {
+        printf("\t\t\t| Valores: %d - %d                                   \n", calc1.valor1, calc1.valor2);
+        printf("\t\t\t| Operacao: Subtracao                               |\n");
     }
 }
 
-
-int main(void){
-    
-
+int main(void)
+{
 
     printf("\t\t\t _________________________________________________\n");
-	printf("\t\t\t|                                                 |\n");
-	printf("\t\t\t|               ESCOLHA A DIFICULDADE             |\n");
-	printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
+    printf("\t\t\t|                                                 |\n");
+    printf("\t\t\t|               ESCOLHA A DIFICULDADE             |\n");
+    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
+    printf("\t\t\t| Pontuacao: %d                                   |\n", calc1.pontuacao);
     printf("\t\t\t| Nivel 1 (Facil): Valores entre 0 e 10.          |\n");
     printf("\t\t\t| Nivel 2 (Facil): Valores entre 0 e 100.         |\n");
     printf("\t\t\t| Nivel 3 (Dificil): Valores entre 0 e 1000.      |\n");
@@ -204,34 +819,4 @@ int main(void){
     default:
         break;
     }
-
-	int operacao;
-    printf("\t\t\t _________________________________________________\n");
-	printf("\t\t\t|                                                 |\n");
-	printf("\t\t\t|            ESCOLHA A UMA DAS OPERACOES          |\n");
-	printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
-    printf("SOMA [1]; \n");
-    printf("SUBTRACAO [2]; \n");
-    printf("MULTIPLICACAO [3]; \n");
-     printf("DIVISAO [4]; \n");
-     scanf("%d", &operacao);
-    switch (operacao)
-    {
-    case 1:
-       adicao(operacao);
-    case 2:
-        subtracao(operacao);
-        break;
-    case 3:
-  multiplicacao(operacao);      
-    break;
-       case 4:
-  divisao(operacao);      
-    break;
-    default:
-        break;
-    }
-
-}
-
 }
