@@ -156,6 +156,7 @@ void mostrarInfo(){
 
 
 int main(void){
+	int operacao;
     
 
 
@@ -191,5 +192,32 @@ int main(void){
         break;
     }
 
+int operacao;
+    printf("\t\t\t _________________________________________________\n");
+	printf("\t\t\t|                                                 |\n");
+	printf("\t\t\t|            ESCOLHA A UMA DAS OPERACOES          |\n");
+	printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
+    printf("SOMA [1]; \n");
+    printf("SUBTRACAO [2]; \n");
+    printf("MULTIPLICACAO [3]; \n");
+     printf("DIVISAO [4]; \n");
+     scanf("%d", &operacao);
+    switch (operacao)
+    {
+    case 1:
+       adicao(operacao);
+    case 2:
+        subtracao(operacao);
+        break;
+    case 3:
+  multiplicacao(operacao);      
+    break;
+       case 4:
+  divisao(operacao);      
+    break;
+    default:
+        break;
+    }
 
+}
 }
