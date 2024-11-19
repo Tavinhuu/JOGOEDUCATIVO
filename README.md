@@ -1,3 +1,15 @@
+Grupo 6
+
+Gerente: Gabriel Cardoso
+
+* Enzo Gabriel Laquiz
+* Gabriel da Silva Campos
+* Gustavo Henrique 
+* Daniel Amorim
+* Fernando Kenzo
+* ⁠Filipe Soares
+* ⁠Kauã Lacerda 
+
 <img src="https://i.ibb.co/wyzGC6k/escolha-a-dificuldade.png">
 <br><br>
 <img src="https://i.ibb.co/PtJn9Vh/OPERACAO.png">
