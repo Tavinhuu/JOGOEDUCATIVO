@@ -12,8 +12,11 @@ Desenvolver um jogo educacional de cálculo matemático em linguagem de programa
 Escolha de Dificuldade: O usuário deve poder selecionar entre diferentes níveis de dificuldade (1 a 4), que afetam o intervalo de valores numéricos usados nas operações.
 
 Nível 1 (Fácil): Valores entre 0 e 10.
+
 Nível 2 (Médio): Valores entre 0 e 100.
+
 Nível 3 (Difícil): Valores entre 0 e 1000.
+
 Nível 4 (Insano): Valores entre 0 e 10000.
 
 Geração de Operações Aleatórias: O sistema deve gerar aleatoriamente uma operação de soma, subtração ou multiplicação para ser resolvida pelo jogador.
@@ -47,9 +50,13 @@ Função jogar(): Principal loop do jogo, responsável por gerar operações e a
 Funções para Operações Matemáticas:
 
 somar(): Avalia a operação de soma.
+
 diminuir(): Avalia a operação de subtração.
+
 multiplicar(): Avalia a operação de multiplicação.
+
 Função mostrarInfo(): Exibe detalhes sobre a operação gerada (opcional).
+
 
 4. Detalhamento Técnico
    
@@ -73,7 +80,9 @@ Função rand(): Utilizada para gerar valores aleatórios tanto para os números
 O número da operação é gerado entre 0 e 2, onde:
 
 0 = soma
+
 1 = subtração
+
 2 = multiplicação
 
 5. Critérios de Avaliação
