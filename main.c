@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <time.h>
 
+#define limpar printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+
 typedef struct
 {
     int dificuldade;
@@ -55,6 +57,7 @@ void adicao()
 
         if (calc1.chute == calc1.resultado)
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
@@ -73,6 +76,7 @@ void adicao()
         }
         else
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
@@ -98,6 +102,7 @@ void adicao()
 
         if (calc1.chute == calc1.resultado)
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
@@ -117,6 +122,7 @@ void adicao()
         }
         else
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
@@ -142,6 +148,7 @@ void adicao()
 
         if (calc1.chute == calc1.resultado)
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
@@ -160,6 +167,7 @@ void adicao()
         }
         else
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
@@ -184,6 +192,7 @@ void adicao()
 
         if (calc1.chute == calc1.resultado)
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
@@ -202,6 +211,7 @@ void adicao()
         }
         else
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
@@ -232,6 +242,7 @@ void multiplicacao()
 
         if (calc1.chute == calc1.resultado)
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
@@ -250,6 +261,7 @@ void multiplicacao()
         }
         else
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
@@ -275,6 +287,7 @@ void multiplicacao()
 
         if (calc1.chute == calc1.resultado)
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
@@ -293,6 +306,7 @@ void multiplicacao()
         }
         else
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
@@ -318,6 +332,7 @@ void multiplicacao()
 
         if (calc1.chute == calc1.resultado)
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
@@ -336,6 +351,7 @@ void multiplicacao()
         }
         else
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
@@ -361,6 +377,7 @@ void multiplicacao()
 
         if (calc1.chute == calc1.resultado)
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
@@ -379,6 +396,7 @@ void multiplicacao()
         }
         else
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
@@ -409,6 +427,7 @@ void divisao()
 
         if (calc1.chute == calc1.resultado)
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
@@ -427,6 +446,7 @@ void divisao()
         }
         else
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
@@ -452,6 +472,7 @@ void divisao()
 
         if (calc1.chute == calc1.resultado)
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
@@ -470,6 +491,7 @@ void divisao()
         }
         else
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
@@ -495,6 +517,7 @@ void divisao()
 
         if (calc1.chute == calc1.resultado)
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
@@ -513,6 +536,7 @@ void divisao()
         }
         else
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
@@ -538,6 +562,7 @@ void divisao()
 
         if (calc1.chute == calc1.resultado)
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
@@ -556,6 +581,7 @@ void divisao()
         }
         else
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
@@ -586,6 +612,7 @@ void subtracao()
 
         if (calc1.chute == calc1.resultado)
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
@@ -604,6 +631,7 @@ void subtracao()
         }
         else
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
@@ -629,6 +657,7 @@ void subtracao()
 
         if (calc1.chute == calc1.resultado)
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
@@ -647,6 +676,7 @@ void subtracao()
         }
         else
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
@@ -672,6 +702,7 @@ void subtracao()
 
         if (calc1.chute == calc1.resultado)
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
@@ -690,6 +721,7 @@ void subtracao()
         }
         else
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
@@ -715,7 +747,9 @@ void subtracao()
 
         if (calc1.chute == calc1.resultado)
         {
-             printf("\t\t\t _______________________________________________________________________________\n");
+            limpar
+            limpar
+            printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          LEGAL! VOCE ACERTOU                                 |\n");
             printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|\n");
@@ -733,6 +767,7 @@ void subtracao()
         }
         else
         {
+            limpar
             printf("\t\t\t _______________________________________________________________________________\n");
             printf("\t\t\t|                                                                              |\n");
             printf("\t\t\t|                          QUE PENA! VOCE ERROU                                |\n");
@@ -755,6 +790,7 @@ void mostrarInfo()
 
     if (calc1.dificuldade == 1)
     {
+        limpar
         printf("\t\t\t _________________________________________________\n");
         printf("\t\t\t|                                                 |\n");
         printf("\t\t\t|                    NIVEL FACIL                  |\n");
@@ -762,6 +798,7 @@ void mostrarInfo()
     }
     else if (calc1.dificuldade == 2)
     {
+        limpar
         printf("\t\t\t _________________________________________________\n");
         printf("\t\t\t|                                                 |\n");
         printf("\t\t\t|                    NIVEL MEDIO                  |\n");
@@ -769,13 +806,15 @@ void mostrarInfo()
     }
     else if (calc1.dificuldade == 3)
     {
+        limpar
         printf("\t\t\t _________________________________________________\n");
         printf("\t\t\t|                                                 |\n");
         printf("\t\t\t|                  NIVEL DIFICIL                  |\n");
         printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
     else
-    {
+    {   
+        limpar
         printf("\t\t\t _________________________________________________\n");
         printf("\t\t\t|                                                 |\n");
         printf("\t\t\t|                  NIVEL INSANO                   |\n");
@@ -806,7 +845,7 @@ void mostrarInfo()
 
 int main(void)
 {
-
+    limpar
     printf("\t\t\t _________________________________________________\n");
     printf("\t\t\t|                                                 |\n");
     printf("\t\t\t|               ESCOLHA A DIFICULDADE             |\n");
