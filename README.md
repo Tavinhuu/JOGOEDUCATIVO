@@ -1,3 +1,11 @@
+<img src="https://i.ibb.co/wyzGC6k/escolha-a-dificuldade.png">
+<br><br>
+<img src="https://i.ibb.co/PtJn9Vh/OPERACAO.png">
+<br><br>
+<img src="https://i.ibb.co/94py6j2/ACERTOU.png">
+<br><br>
+<img src="https://i.ibb.co/YRXwvCN/ERROU.png">
+
 **Instruções**
 
 **Proposta de Projeto – Jogo de Cálculos em C**
@@ -100,15 +108,9 @@ O número da operação é gerado entre 0 e 2, onde:
 
 **6. Expansões**
    
-**Sistema de Ranking:** Implementar um ranking que armazena os melhores jogadores com suas respectivas pontuações.
 
-**Novas Operações:** Adicionar novas operações como divisão ou exponenciação.
+**Novas Operações:** Novas operações como divisão
 
-**Níveis Infinitos:** Permitir que o jogador continue indefinidamente, com a dificuldade aumentando progressivamente.
-
-**Histórico de operações:** manter um histórico das últimas operações matemáticas que o jogador resolveu. 
-
-**Sistema de voltar a última jogada:** permitir que o jogador "desfaça" a última operação antes de fornecer uma resposta. 
 
 **7. Teste do Sistema**
     
