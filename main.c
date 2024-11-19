@@ -31,39 +31,60 @@ void jogar(){
 }
 
 void adicao(){
-    printf("Operacao de adicao\n");
 
     if(dificuldade == 1){
-        printf("Dificuldade facil");
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|                  ADICAO NIVEL FACIL             |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
 
     }
     if(dificuldade == 2){
-        printf("Dificuldade medio");
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|                  ADICAO NIVEL MEDIO             |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
     if(dificuldade == 3){
-        printf("Dificuldade dificil");
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|                 ADICAO NIVEL DIFICIL            |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
     if(dificuldade == 4){
-        printf("Dificuldade insano");
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|                 ADICAO NIVEL INSANO             |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
 
 }
 
 void multiplicacao(){
-    printf("Operacao de multiplicacao\n");
-
 
     if(dificuldade == 1){
-        printf("Dificuldade facil");
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|           MULTIPLICACAO NIVEL FACIL             |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
     if(dificuldade == 2){
-        printf("Dificuldade medio");
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|           MULTIPLICACAO NIVEL MEDIO             |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
     if(dificuldade == 3){
-        printf("Dificuldade dificil");
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|         MULTIPLICACAO NIVEL DIFICIL             |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
     if(dificuldade == 4){
-        printf("Dificuldade insano");
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|          MULTIPLICACAO NIVEL INSANO             |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
 
 
@@ -71,19 +92,29 @@ void multiplicacao(){
 
 void divisao(){
 
-    printf("Operacao de divisao\n");
-
     if(dificuldade == 1){
-        printf("Dificuldade facil");
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|                 DIVISAO NIVEL FACIL             |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
     if(dificuldade == 2){
-        printf("Dificuldade medio");
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|                 DIVISAO NIVEL MEDIO             |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
     if(dificuldade == 3){
-        printf("Dificuldade dificil");
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|               DIVISAO NIVEL DIFICIL             |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
     if(dificuldade == 4){
-        printf("Dificuldade insano");
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|                 DIVISAO NIVEL INSANO            |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
 }
 
@@ -92,16 +123,28 @@ void subtracao(){
     printf("Operacao de subtracao\n");
 
     if(dificuldade == 1){
-        printf("Dificuldade facil");
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|               SUBTRACAO NIVEL FACIL             |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
     if(dificuldade == 2){
-        printf("Dificuldade medio");
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|               SUBTRACAO NIVEL MEDIO             |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
     if(dificuldade == 3){
-        printf("Dificuldade dificil");
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|             SUBTRACAO NIVEL DIFICIL             |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
     if(dificuldade == 4){
-        printf("Dificuldade insano");
+        printf("\t\t\t _________________________________________________\n");
+	    printf("\t\t\t|                                                 |\n");
+	    printf("\t\t\t|               SUBTRACAO NIVEL INSANO            |\n");
+	    printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     }
 
 }
