@@ -852,7 +852,7 @@ int main(void)
     printf("\t\t\t| - - - - - - - - - - - - - - - - - - - - - - - - |\n");
     printf("\t\t\t| Pontuacao: %d                                   |\n", calc1.pontuacao);
     printf("\t\t\t| Nivel 1 (Facil): Valores entre 0 e 10.          |\n");
-    printf("\t\t\t| Nivel 2 (Facil): Valores entre 0 e 100.         |\n");
+    printf("\t\t\t| Nivel 2 (Médio): Valores entre 0 e 100.         |\n");
     printf("\t\t\t| Nivel 3 (Dificil): Valores entre 0 e 1000.      |\n");
     printf("\t\t\t| Nivel 4 (Insano): Valores entre 0 e 10000.      |\n");
     printf("\t\t\t _________________________________________________\n");
