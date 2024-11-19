@@ -8,3 +8,5 @@ Coordenador: Gabriel Cardoso
 - Função jogar():
 - Funções para Operações Matemáticas:
 - Função mostrarInfo():
+
+Função de soma
